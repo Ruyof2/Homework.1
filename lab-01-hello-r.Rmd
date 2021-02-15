@@ -11,15 +11,16 @@ University ID:S2201003185
 
  
  
-```{r load-packages, message=FALSE}library(tidyverse) 
+```{r}
+load-packages, message=FALSE}library(tidyverse) 
 library(openintro)
 ```
+
 52519 pots
 
 varlables = 7
 
 ```{r}
-
 seattlepets %>% count(animal_name, sort = TRUE)
 
 ```
@@ -31,6 +32,9 @@ seattlepets %>% count(animal_name, sort = TRUE)
 4 Luna          355
 
 
+```{r}
+seattlepets %>% group_by(species) %>% count(animal_name, sort = TRUE) %>% slice_max(n, n = 5) %>% arrange(species, n)
+```
 
 
 
