@@ -9,10 +9,31 @@ University ID:S2201003185
 
 ### Load packages
 
+ 
+ 
 ```{r load-packages, message=FALSE}library(tidyverse) 
-library(datasauRus)
+library(openintro)
 ```
-52519
+52519 pots
+
+varlables = 7
+
+```{r}
+
+seattlepets %>% count(animal_name, sort = TRUE)
+
+```
+
+
+1 NA            483
+2 Lucy          439
+3 Charlie       387
+4 Luna          355
+
+
+
+
+
 
 ###Exercises
 
