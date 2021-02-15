@@ -16,6 +16,8 @@ load-packages, message=FALSE}library(tidyverse)
 library(openintro)
 ```
 
+###Exercises
+
 52519 pots
 
 varlables = 7
@@ -36,6 +38,8 @@ seattlepets %>% count(animal_name, sort = TRUE)
 seattlepets %>% group_by(species) %>% count(animal_name, sort = TRUE) %>% slice_max(n, n = 5) %>% arrange(species, n)
 ```
 
+5 :
+oliver and lily
 
 
 
