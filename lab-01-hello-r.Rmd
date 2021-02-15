@@ -42,6 +42,10 @@ seattlepets %>% group_by(species) %>% count(animal_name, sort = TRUE) %>% slice_
 oliver and lily
 
 
+6 :
+positive ,, if dogs names increase the cats increase also  
+and also if dogs names decrease the cats names decrease also in the same name of them
+
 
 ###Exercises
 
