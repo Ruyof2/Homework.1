@@ -1,11 +1,11 @@
 ---
 title: "Homework1 - Hello R"
-author: "Ruyof mohammed almotiry "
+author: "Ruyof mohammed 2 "
 date: "13/2/2021"
 output: html_document
 ---
 
-University ID:2201003185 
+University ID:S2201003185 
 
 ### Load packages
 
@@ -16,7 +16,5 @@ library(datasauRus)
 
 ### Lab Exercise
 
->head(datasaurus_dozen)
->summary(datasaurus_dozen)
->View(datasaurus_dozen) 
+
 
